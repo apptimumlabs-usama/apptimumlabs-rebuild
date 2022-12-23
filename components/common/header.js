@@ -76,7 +76,7 @@ const HeaderContainer = ({ scrolledVersion, isMobile, children }) => {
                initial={{ y: "-100%" }}
                animate={{ y: "0%" }}
                transition={{ type: "tween" }}
-                className={`shadow-lg fixed bg-[#003174] top-0 w-full  z-50`}
+                className={` fixed  top-0 w-full  z-50`}
             >
                 {children}
             </motion.div>

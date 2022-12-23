@@ -131,7 +131,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M142.857,470.733a6.433,6.433,0,0,1-6.6,6.822,5.145,5.145,0,0,1-3.99-1.6v6.18h-3.843V464.1h3.67v1.528a5.15,5.15,0,0,1,4.168-1.725A6.44,6.44,0,0,1,142.857,470.733Zm-3.892,0a3.387,3.387,0,1,0-3.375,3.67,3.345,3.345,0,0,0,3.375-3.67Z"
                   transform="translate(-128.423 -457.973)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -143,7 +143,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M165.249,470.733a6.432,6.432,0,0,1-6.6,6.822,5.145,5.145,0,0,1-3.99-1.6v6.18h-3.843V464.1h3.671v1.528a5.149,5.149,0,0,1,4.168-1.725A6.44,6.44,0,0,1,165.249,470.733Zm-3.892,0a3.386,3.386,0,1,0-3.374,3.67,3.345,3.345,0,0,0,3.374-3.67Z"
                   transform="translate(-133.697 -457.973)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -155,7 +155,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M181.269,475.877a5.492,5.492,0,0,1-3.129.838c-3.129,0-4.951-1.6-4.951-4.754v-5.444h-2.044v-2.955h2.044v-3.228h3.843v3.226h3.305v2.957h-3.305v5.393a1.546,1.546,0,0,0,1.65,1.749,2.585,2.585,0,0,0,1.552-.493Z"
                   transform="translate(-138.486 -457.132)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -167,7 +167,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M186.774,458.288a2.2,2.2,0,0,1,2.388-2.143,2.157,2.157,0,0,1,2.389,2.069,2.4,2.4,0,0,1-4.777.073Zm.467,3.987h3.843v13.253h-3.843Z"
                   transform="translate(-142.168 -456.145)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -179,7 +179,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M219.638,469.772v7.586h-3.843v-7c0-2.143-.96-3.129-2.512-3.129-1.725,0-2.932,1.108-2.932,3.474v6.649h-3.843v-6.994c0-2.143-.911-3.129-2.513-3.129-1.7,0-2.906,1.108-2.906,3.474v6.649h-3.843V464.1h3.67v1.528a5.373,5.373,0,0,1,4.168-1.725,4.96,4.96,0,0,1,4.36,2.167,5.958,5.958,0,0,1,4.779-2.167C217.368,463.91,219.638,465.732,219.638,469.772Z"
                   transform="translate(-144.634 -457.973)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -191,7 +191,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M244.532,464.163v13.253h-3.646v-1.581a5.36,5.36,0,0,1-4.114,1.773c-3.325,0-5.665-1.868-5.665-5.962v-7.483h3.843v6.921c0,2.218.986,3.2,2.685,3.2,1.774,0,3.054-1.133,3.054-3.572v-6.552Z"
                   transform="translate(-152.61 -458.034)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -203,7 +203,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M275.891,469.772v7.586h-3.844v-7c0-2.143-.959-3.129-2.512-3.129-1.725,0-2.93,1.108-2.93,3.474v6.649h-3.843v-6.994c0-2.143-.911-3.129-2.512-3.129-1.7,0-2.906,1.108-2.906,3.474v6.649H253.5V464.1h3.675v1.528a5.371,5.371,0,0,1,4.167-1.725,4.954,4.954,0,0,1,4.359,2.167,5.958,5.958,0,0,1,4.779-2.167C273.624,463.91,275.891,465.732,275.891,469.772Z"
                   transform="translate(-157.885 -457.973)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -221,7 +221,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M249.826,445.021h.828v7.11h4.382v.719h-5.21Z"
                   transform="translate(-249.826 -444.553)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -233,7 +233,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M262.617,449.787v3.645h-.76v-.917a2.207,2.207,0,0,1-2.023.973c-1.331,0-2.147-.693-2.147-1.71,0-.905.575-1.666,2.27-1.666h1.868v-.365c0-1.006-.575-1.554-1.666-1.554a3,3,0,0,0-1.956.693l-.358-.592a3.735,3.735,0,0,1,2.393-.794A2.1,2.1,0,0,1,262.617,449.787Zm-.793,1.878V450.7h-1.852c-1.14,0-1.509.446-1.509,1.05,0,.683.548,1.106,1.488,1.106a1.883,1.883,0,0,0,1.867-1.2Z"
                   transform="translate(-251.677 -445.137)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -245,7 +245,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M272.982,449.763a2.854,2.854,0,0,1-2.929,3,2.558,2.558,0,0,1-2.269-1.219V452.7h-.761v-8.3h.794v3.533a2.563,2.563,0,0,1,2.236-1.163A2.844,2.844,0,0,1,272.982,449.763Zm-.793,0A2.194,2.194,0,1,0,270,452.056a2.159,2.159,0,0,0,2.192-2.293Z"
                   transform="translate(-253.877 -444.409)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"
@@ -257,7 +257,7 @@ const Logo = ({ isMobile, scrolledVersion }) => {
                   d="M275.945,452.768l.358-.627a3.551,3.551,0,0,0,2.091.66c1.118,0,1.581-.38,1.581-.962,0-1.532-3.813-.325-3.813-2.65,0-.961.828-1.677,2.325-1.677a4.011,4.011,0,0,1,2.08.548l-.346.637a3.012,3.012,0,0,0-1.734-.5c-1.062,0-1.532.414-1.532.972,0,1.581,3.813.391,3.813,2.65,0,1.017-.894,1.677-2.426,1.677A4.015,4.015,0,0,1,275.945,452.768Z"
                   transform="translate(-255.978 -445.14)"
                   className={`${isMobile || scrolledVersion
-                      ? "fill-white"
+                      ? "fill-black"
                       : contextColor
                         ? contextColor.logo ?? contextColor.text
                         : "fill-black"

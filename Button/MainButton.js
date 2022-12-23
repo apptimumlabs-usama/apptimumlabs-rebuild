@@ -7,11 +7,11 @@ const MainButton = ({ noHover, children, className, textColor, color = 'primary'
         <button onClick={onClick}
           type={type}
           className={`
-        ${color === 'primary' ? 'bg-gradient-to-l to-primary from-[#ffa45e] text-white' : ''}
+        ${color === 'primary' ? 'bg-gradient-to-l to-[#fa8645] from-[#ffa45e] text-white' : ''}
         ${color === 'white' ? 'bg-white text-primary ' : ''}
         ${addShadow ? 'shadow-button-primary hover:shadow-button-primary-hover' : ''}
         ${!noHover ? 'hover:scale-[1.03] active:scale-[0.97]' : ''}
-        text-primary px-3 py-2 text-base rounded-md  ${className}`}>
+        text-white px-3 py-2 text-base rounded-md  ${className}`}>
           {children}
 
         </button>

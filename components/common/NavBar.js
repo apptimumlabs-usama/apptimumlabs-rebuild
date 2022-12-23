@@ -8,9 +8,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
 
   return (
     <>
-      {/* {loading ? 
-      <Loader /> */}
-      {/* :  */}
       <ul
         className={`${
           isMobile ? "items-start flex-col" : "items-center flex-row"
@@ -24,7 +21,7 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
               } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
             >
               <Link
-                href="/"
+                href="/portfolio"
                 className={`${
                   !(scrolledVersion || isMobile) &&
                   contextColor &&
@@ -32,8 +29,7 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                   "after:!bg-black"
                 }`}
               >
-                Porfoilio
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-black bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
+                Porfolio
               </Link>
             </li>
             <li
@@ -53,7 +49,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Services
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-white bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
             <li
@@ -73,7 +68,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Company
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-white bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
             <li
@@ -93,7 +87,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Careers
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-white bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
             <li
@@ -113,7 +106,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Benifits
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-white bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
             <li
@@ -133,7 +125,6 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Employees
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-white bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
             <li
@@ -153,32 +144,28 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
                 }`}
               >
                 Articles
-               <hr className={`w-1/2 border ${(isMobile || scrolledVersion) ? 'border-black bg-white' : (contextColor && contextColor.color) ? 'border-black bg-black' : 'border-white bg-white'} rounded-md absolute bottom-[-6px]`} />
               </Link>
             </li>
       </ul>
       {isMobile ? (
         <div className="pt-3">
           <Link onClick={toggleDrawer} href="/contact">
-            <MainButton color="white">Get Started</MainButton>
+          <button 
+          className='bg-white text-primary shadow-button-primary hover:shadow-button-primary-hover hover:scale-[1.03] active:scale-[0.97]
+        px-5 py-2 text-base rounded-md  ${className'>
+          Get Started
+
+        </button>
           </Link>
         </div>
       ) : (
         <Link href="/">
-          <MainButton
-            color={
-              contextColor ? (contextColor.logo ? "white" : contextColor.button ?? "primary") : "white"
-            }
-            className={`${
-              !(isMobile || scrolledVersion)
-                ? contextColor?.button
-                  ? "bg-white text-primary"
-                  : ""
-                : ""
-            }`}
-          >
-            Get Started
-          </MainButton>
+          <button 
+          className='bg-white text-primary shadow-button-primary hover:shadow-button-primary-hover hover:scale-[1.03] active:scale-[0.97]
+        px-5 py-2 text-base rounded-md  ${className'>
+          Get Started
+
+        </button>
         </Link>
       )}
     </>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="245.944" height="114.573" viewBox="0 0 245.944 114.573">
+  <g id="Group_233" data-name="Group 233" transform="translate(-11900.999 -5079)">
+    <rect id="Rectangle_106" data-name="Rectangle 106" width="64.204" height="24.202" rx="12.067" transform="translate(11925.201 5090.376) rotate(90)" fill="#fff"/>
+    <rect id="Rectangle_108" data-name="Rectangle 108" width="54.832" height="25.462" rx="12.695" transform="translate(11901 5130.121)" fill="#fff"/>
+    <text id="FOREVER" transform="translate(11980.943 5153.859)" fill="#fff" font-size="34" font-family="ArialRoundedMTBold, Arial Rounded MT Bold"><tspan x="0" y="0">FOREVER</tspan></text>
+    <rect id="Rectangle_107" data-name="Rectangle 107" width="66.065" height="25.462" rx="12.695" transform="translate(11901 5090.376)" fill="#fff"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="12.097" cy="12.097" r="12.097" transform="translate(11901 5169.379)" fill="#fff"/>
+    <text id="FIT" transform="translate(11984.672 5115)" fill="#fff" font-size="34" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">FIT</tspan></text>
+    <path id="Path_389" data-name="Path 389" d="M755.341,340.531h.693a10.99,10.99,0,0,0,11.408-11.408V315.069l-12.322.029c-6.648,0-11.816,6.054-11.816,12.7v.694A12.038,12.038,0,0,0,755.341,340.531Z" transform="translate(11157.761 4815.052)" fill="#fff"/>
+    <path id="Path_390" data-name="Path 390" d="M743.3,285.378v.731c0,7.013,4.512,12.033,10.814,12.033h13.324l-.027-13a12.4,12.4,0,0,0-12.043-12.464h-.657C748.413,272.68,743.3,278.365,743.3,285.378Z" transform="translate(11157.695 4817.696)" fill="#fff"/>
+  </g>
+</svg>
