@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import MainButton from '../../Button/MainButton'
 
 const Question = () => {
   return (
@@ -15,7 +14,10 @@ const Question = () => {
               Our focus is the agile development of web, cloud, and mobile applications and helping organisations create and sustain digital innovation.
             </p>
             <Link href="/contact">
-              <MainButton >Get Started</MainButton>
+              {/* <MainButton >Get Started</MainButton> */}
+              <button className='bg-primary text-white hover:scale-[1.03] active:scale-[0.97]I px-5 py-2 text-base rounded-md  ${className'>
+                Get Started
+              </button>
             </Link>
           </div>
         </div>
@@ -29,7 +31,7 @@ const Question = () => {
         >
           <div className="w-full md:w-auto md:max-w-3xl relative z-10">
             <h2 className="text-white text-5xl lg:text-7xl font-bold hidden md:inline-block">
-              Consulting by Industry Experts
+              Everything
             </h2>
             <div className="w-full inline-block md:hidden ">
               <h2 className="text-3xl  lg:text-7xl font-thin pb-3 text-white">
@@ -42,7 +44,10 @@ const Question = () => {
                 Our focus is the agile development of web, cloud, and mobile applications and helping organisations create and sustain digital innovation.
               </p>
               <Link href='/contact'>
-                <MainButton variant="filled" color='primary'>Get Started</MainButton>
+                {/* <MainButton variant="filled" color='primary'>Get Started</MainButton> */}
+                <button className='bg-primary text-white hover:scale-[1.03] active:scale-[0.97]I px-5 py-2 text-base rounded-md  ${className'>
+                  Get Started
+                </button>
               </Link>
             </div>
           </div>

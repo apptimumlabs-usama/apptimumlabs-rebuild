@@ -17,7 +17,7 @@ const Footer = () => {
             </h6>
             <ul>
                   <li className="mb-2  footerItems">
-                    <a className="text-base md:text-lg hover:text-primary transition-all font-normal" rel="noreferrer" href="/">
+                    <a className="text-base md:text-lg hover:text-primary transition-all font-normal" rel="noreferrer" href="tel:+1 (302) 261-5311">
                     +1 (302) 261-5311
                     </a>
                   </li>

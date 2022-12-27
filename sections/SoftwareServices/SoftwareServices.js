@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { HiArrowNarrowRight as RightArrow } from "react-icons/hi";
 import { IconContext } from "react-icons";
-import MainButton from '../../Button/MainButton';
 
 const SoftwareServices = () => {
     return (

@@ -113,7 +113,7 @@ a {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background: #fff;
+  /* background: #fff; */
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
 }

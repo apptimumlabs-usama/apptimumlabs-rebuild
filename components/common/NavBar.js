@@ -16,8 +16,8 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
             <li
               className={`text-base ${
                 contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
+                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-white'}`
+                  : "text-white"
               } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
             >
               <Link
@@ -35,8 +35,8 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
             <li
               className={`text-base ${
                 contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
+                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-white'}`
+                  : "text-white"
               } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
             >
               <Link
@@ -54,8 +54,8 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
             <li
               className={`text-base ${
                 contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
+                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-white'}`
+                  : "text-white"
               } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
             >
               <Link
@@ -73,65 +73,8 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
             <li
               className={`text-base ${
                 contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
-              } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
-            >
-              <Link
-                href="/"
-                className={`${
-                  !(scrolledVersion || isMobile) &&
-                  contextColor &&
-                  contextColor.color &&
-                  "after:!bg-black"
-                }`}
-              >
-                Careers
-              </Link>
-            </li>
-            <li
-              className={`text-base ${
-                contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
-              } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
-            >
-              <Link
-                href="/"
-                className={`${
-                  !(scrolledVersion || isMobile) &&
-                  contextColor &&
-                  contextColor.color &&
-                  "after:!bg-black"
-                }`}
-              >
-                Benifits
-              </Link>
-            </li>
-            <li
-              className={`text-base ${
-                contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
-              } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
-            >
-              <Link
-                href="/"
-                className={`${
-                  !(scrolledVersion || isMobile) &&
-                  contextColor &&
-                  contextColor.color &&
-                  "after:!bg-black"
-                }`}
-              >
-                Employees
-              </Link>
-            </li>
-            <li
-              className={`text-base ${
-                contextColor && !scrolledVersion
-                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-black'}`
-                  : "text-black"
+                  ? `${isMobile ? "text-black" : contextColor.color ?? 'text-white'}`
+                  : "text-white"
               } mr-8 relative  ${isMobile ? "mb-3 w-fit" : "mb-0 w-auto"}`}
             >
               <Link
@@ -161,7 +104,7 @@ const NavBar = ({ scrolledVersion, isMobile, toggleDrawer }) => {
       ) : (
         <Link href="/">
           <button 
-          className='bg-white text-primary shadow-button-primary hover:shadow-button-primary-hover hover:scale-[1.03] active:scale-[0.97]
+          className='bg-white text-primary hover:scale-[1.03] active:scale-[0.97]
         px-5 py-2 text-base rounded-md  ${className'>
           Get Started
 
