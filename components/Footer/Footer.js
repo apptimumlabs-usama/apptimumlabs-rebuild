@@ -5,7 +5,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai"
 const Footer = () => {
   return (
     <>
-    <div className="bg-white">
+    <div className="bg-white w-full">
       <div className="max-w-screen-xl mx-auto py-8 md:py-10 px-3 ">
         <h6 className="text-primary border-b-2 max-w-fit border-primary border-width font-medium text-2xl pb-2 mb-4">
           Explore your ideas with us!

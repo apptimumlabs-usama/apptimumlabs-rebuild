@@ -21,7 +21,7 @@ const AmazingProjects = () => {
           </div>
         </div>
         <div className="w-full md:w-[70%] flex justify-start items-center md:items-start bg-[#F7F7F7] lg:pt-60 md:pt-32 py-12 px-3   ">
-          <div className="w-full md:max-w-5xl">
+          <div className="w-full md:max-w-5xl usama">
             <h2 className="text-black text-5xl  lg:text-[3.5rem] font-medium pb-3 hidden md:inline-block">
               Projects we built
               <Link

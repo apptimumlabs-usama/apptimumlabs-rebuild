@@ -7,6 +7,17 @@ import AmazingProjects from '../sections/AmazingProjects/AmazingProjects'
 import FeaturedClients from '../sections/FeaturedClients/FeaturedClients'
 import SoftwareServices from '../sections/SoftwareServices/SoftwareServices'
 import FooterForm from '../sections/FooterForm/FooterForm'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel, Pagination } from "swiper";
+import "swiper/css";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+// import required modules
+// import { Mousewheel, Pagination } from "swiper";
 
 
 
@@ -22,12 +33,44 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Question />
-      <AmazingProjects />
-      <FeaturedClients />
-      <SoftwareServices />
-      <FooterForm/>
+      <Swiper
+      direction={"vertical"}
+        // loop={true}
+        modules={[Mousewheel, Pagination]}
+                mousewheel={true}
+
+        slidesPerView={1}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
+        className="mySwiper !w-auto"
+      >
+        <SwiperSlide>
+
+          <Question />
+        </SwiperSlide>
+        <SwiperSlide>
+
+          <AmazingProjects />
+        </SwiperSlide>
+        <SwiperSlide>
+
+          <FeaturedClients />
+        </SwiperSlide>
+        <SwiperSlide>
+
+          <SoftwareServices />
+        </SwiperSlide>
+        <SwiperSlide>
+
+        <FooterForm />
+        </SwiperSlide>
+        <SwiperSlide>
+
       <Footer />
+        </SwiperSlide>
+      </Swiper>
     </>
   )
 }

@@ -3,7 +3,7 @@ import Form from '../ContactForm/Form'
 
 const FooterForm = () => {
   return (
-    <div className="bg-[#F7F7F7]">
+    <div className="bg-[#F7F7F7] w-full">
     <div className="py-8 md:py-12 max-w-screen-xl px-3 mx-auto  ">
       <div className="flex items-center flex-col" style={{paddingBottom: "40px"}}>
         <img

@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Question = () => {
   return (
     <>
-      <div className="w-full flex flex-row  h-[100vh]  relative ">
+      <div className="w-full flex flex-row  h-[100vh] relative ">
         <div className="w-[30%] hidden md:flex justify-end px-3  pt-60 pb-6">
           <div className="w-96 flex flex-col items-end ">
             <h2 className="text-5xl lg:text-7xl font-thin pb-3">

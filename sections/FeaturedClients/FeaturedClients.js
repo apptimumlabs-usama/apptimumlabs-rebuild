@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 
 const FeaturedClients = () => {
   return (
-    <div>
+    <div className='w-full'>
       <IconContext.Provider
       value={{
         className: "text-white text-lg md:text-2xl group-hover:translate-x-2",
